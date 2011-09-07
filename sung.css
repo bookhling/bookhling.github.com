@@ -1,0 +1,157 @@
+body {
+background:#0a0a0a;
+text-align:left;
+color:#666;
+font-size:14px;
+font-family:georgia, 'time new romans', serif;
+margin:0 auto;
+padding:0;
+}
+
+a {
+color: #FA9426; /* stage titles: currently gits orange */ 
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 16px;
+letter-spacing: -1px;
+}
+
+a:visited {
+color: #aaaaaa;
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 16px;
+letter-spacing: -1px;
+}
+
+a:hover {
+color: ffffff;
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 16px;
+letter-spacing: -1px;
+}
+
+h1 {
+width: 400px;
+border: none;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 24px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#444444;
+font-weight: 400;
+padding: 0 0 10px;
+}
+
+h3 {
+font-size:14px;
+font-family:verdana, helvetica, arial, sans-serif;
+letter-spacing:-1px;
+color:#fff;
+font-weight: 700;
+text-transform:uppercase;
+margin:0;
+padding:8px 0 8px 0;
+}
+
+p {
+color:#fff;
+font-size: 20px;
+line-height: 38px;
+font-family: 'Trebuchet MS', verdana, helvetica, sans-serif;
+padding: 0 0 10px;
+margin: 20px 0 10px 0;
+}
+
+img {
+border:none;
+}
+
+#header {
+width: 360px;
+float: left;
+margin: 0 15px 0 0;
+padding: 0;
+}
+
+#menu {
+background: #333333;
+position: fixed;
+top: 40px;
+left: 0;
+border: 1px solid #000;
+clear: both;
+float: left;
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 18px;
+margin: 0;
+padding: 18px;
+z-index: 500;
+filter: alpha(opacity=50);
+opacity: .50;
+}
+
+#menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#menu ul li{
+list-style-type: none;
+color: #777;
+display: inline;
+margin: 0;
+padding: 0 10px 0 10px;
+}
+
+#menu ul li a{
+text-decoration: none;
+list-style-type: none;
+color: #777;
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+#menu ul li a:hover{
+text-decoration: none;
+list-style-type: none;
+color: #40BB80; /* hover text color */
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+#container {
+position: absolute;
+top: 120px; left: 40px;
+width: 7000px;
+margin: 0;
+padding: 0;
+}
+
+.box {
+background: #000000;
+border: 3px #40BB80;
+width: 500px;
+float: left;
+line-height: 22px;
+margin: 30px;
+padding: 5px 30px 30px 30px;
+}
+
+.box p {  /* main text colors*/
+color:#FA9426;
+font-size: 16px;
+line-height:24px;
+padding: 0 0 10px;
+margin: 20px 0 10px 0;
+}/* CSS Document */
